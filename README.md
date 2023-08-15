@@ -1,2 +1,2 @@
-# task2_netflix-homepage
-i build netflix homepage using HTML,CSS.
+# task2_netflix-landing-page
+i build netflix landing page using HTML,CSS.
