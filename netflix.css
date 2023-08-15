@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'ponnins' , sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: hsl(0, 0%, 27%);
+    color: #fff;
+    
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,  url('header-image.png');
+    
+    background-size: cover;
+    background-position: center;
+    padding:10px 8% ;
+    position: relative;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+
+
+}
+nav button{
+    border: 0; 
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding:  7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+
+    
+
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+.logo-btn{
+    display: inline-flex;
+    
+    padding: 7px 10px;
+    background: transparent;
+    border: 1px solid #fff;
+    
+    align-items: center;
+
+}
+.logo-btn img{
+    width: 10px;
+    margin-left: 10px;
+}
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+    width: 100%
+}
+.header-content h1{
+    font-size: 2.5rem;
+    line-height: 70px;
+    font-weight: 600;
+   
+  
+
+}
+.header-content h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.email-signup input {
+    width: 35%;
+    border: 1px solid rgba(200,200,200,0.8);
+    outline: 0;
+    margin-left: 20px;
+    padding: 15px 30px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 4px;
+}
+.email-signup button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+    margin-right: 50px;
+    border-radius: 4px;
+}
+/* ...............features............. */
+.features{
+    padding: 0;
+    font-size: 22px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-color: black;
+    margin-top: 1%;
+}
+.text-col{
+    flex-basis:50% ;
+    margin-bottom: 20px;
+
+}
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.features h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+/* ........faq............. */
+
+.faq{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.faq h2{
+    font-weight:  700;
+    font-size: 45px;
+    padding: 2rem;
+}
+.faq-flex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+summary{
+    width: 100%;
+    text-decoration: none;
+    background:rgba(128, 128, 128, 0.333);
+    margin-bottom: 10px;
+    text-align: left;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transition:all;
+    transition-duration: 0.9s;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+}
+summary:hover{
+    background:rgba(84, 79, 79, 0.8);
+}
+.fa-solid i{
+    justify-self: right;
+}
+details p {
+    width: 100%;
+    border: 1px solid black;
+      background:rgba(128, 128, 128, 0.333);
+      padding: 10px;
+      margin-top: -10px;
+      margin-bottom: 10px;
+      transition:all;
+    transition-duration: 0.9s;
+    font-size: 20px;
+    text-align: left;
+      
+}
+.faq-last{
+    text-align: center;
+    background: black;
+}
+.faq-last .email-signup2 input{
+    width: 30%;
+    border: 1px solid rgba(200,200,200,0.8);
+    outline: 0;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 15px 30px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 4px;
+
+}
+.faq-last .email-signup2 button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+    margin-right: 50px;
+    border-radius: 4px;
+
+}
+small{
+    font-size: 20px;
+}
+.div4{
+
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content:space-between;
+    text-align: left;
+}
+.footer{
+    background: black;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding:3% 9%;
+    padding-right: 20%;
+}
+.footer h3{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300;
+    background: black;  
+
+    
+}
+.footer .col_foot{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background: black;
+    margin-right: 10px;
+    padding: 10px 0px;
+    justify-content: space-between;
+}
+a{
+    color:white;
+    background: black;
+    padding: 10px 0px;
+    justify-content: space-between;
+    
+}
+.summ1::after{
+    content:'+';
+    position: absolute;
+    font-size: 30px;
+    right: 180px;
+
+}
+.toggleclass::after{
+    content:'×';
+    position: absolute;
+    font-size: 30px;
+    right: 180px;
+
+
+}
+@media screen and (max-width:960px) {
+.features h2, .faq h2{
+    font-size: 2rem;
+}
+.features p, .faq p{
+    font-size: 1.1rem
+}
+    .row{
+        flex-direction: column;
+        text-align: center;
+    }
+    .down, .kid{
+        flex-direction:column-reverse;
+    }
+    .faq{
+        width:100%;
+        padding:0 3%;
+    }
+    .summ1::after, .toggleclass::after{
+        right: 80px;
+    
+    }
+    .header nav .logo{
+        width: 110px;
+        margin-top: -10px;
+        margin-left: -15px;
+    }
+    .col_foot{
+        font-size: 0.9rem;
+    }
+   
+}
+@media screen  and (max-width:600px){
+    .features h2, .faq h2{
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+    .features p, .faq p{
+        font-size: 0.9rem
+    }
+    
+.header-content h1{
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+
+.header-content h3{
+   font-size: 1rem;
+   font-weight: 100;
+   line-height: 30px;
+   
+
+}
+.email-signup , .email-signup2{
+    display: flex;
+    flex-direction: column;
+}
+.email-signup button {
+    height: 40px;
+    width: 140px;
+    font-size: 1rem;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 15px;
+}
+.email-signup input {
+    width: 80%;
+    margin: 0 auto;
+}
+summary{
+    padding: 1.2rem;
+    font-size: 1.1rem;
+}
+
+.summ1::after, .toggleclass::after{
+    right: 60px;
+
+}
+.faq-last small{
+    font-size: 1rem;
+}
+.faq-last .email-signup2 button{
+    font-size: 0.8rem;
+    margin: 0 ;
+    width: 160px;
+    height: 40px;
+    padding: 0;
+    margin-bottom: 5%;
+    margin-top: 10px;
+}
+.faq-last .email-signup2 input{
+    margin:0;
+    margin-top: 25px;
+    width: 80%;
+}
+.faq-last .email-signup2{
+    align-items: center;
+    width:100%;
+    padding:0;
+
+    
+}
+.col_foot{
+    font-size: 0.7rem;
+}
+}
